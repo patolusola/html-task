@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table with Inline CSS</title>
+  </head>
+  <body>
+    <h1
+      style="
+        text-align: center;
+        color: #1a73e8;
+        font-family: Arial, Helvetica, sans-serif;
+      "
+    >
+    <header>
+      <nav style="background-color: #ffffff00; padding: 0; margin: 25px; font-size: large;">
+        <a
+          href="../index.html"
+          style="color: #333; text-decoration: none; margin-right: 15px"
+          >Root Index Home</a
+        >
+        <a
+          href="media.html"
+          style="color: #333; text-decoration: none; margin-right: 15px"
+          >Media Page</a
+        >
+      </nav>
+    </header>
+
+      AltSchool Africa Courses
+    </h1>
+    <h3 style="font-family: Arial, Helvetica, sans-serif">
+      The table below shows the schools and all the courses availabe in
+      AltSchool Africa.
+    </h3>
+
+    <table
+      style="
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        margin: 20px auto;
+      "
+    >
+      
+      <thead>
+        <tr style="background-color: #f4f4f4">
+          <th
+            style="padding: 12px; border: 1px solid #ddd; text-align: left"
+            colspan="2"
+          >
+            School
+          </th>
+          <th
+            style="padding: 12px; border: 1px solid #ddd; text-align: left"
+            colspan="3"
+          >
+            Courses
+          </th>
+        </tr>
+      </thead>
+
+      
+      <tbody>
+        <tr>
+          <td style="padding: 12px; border: 1px solid #ddd">
+            School of Engineering
+          </td>
+          <td style="padding: 12px; border: 1px solid #ddd">
+            Front-End Engineering
+          </td>
+          <td style="padding: 12px; border: 1px solid #ddd">
+            Back-End Engineering
+          </td>
+          <td style="padding: 12px; border: 1px solid #ddd">
+            Cloud Engineering
+          </td>
+          <td style="padding: 12px; border: 1px solid #ddd">Cybersecurity</td>
+        </tr>
+        <tr style="background-color: #f9f9f9">
+          <td style="padding: 12px; border: 1px solid #ddd">
+            School of Product
+          </td>
+          <td style="padding: 12px; border: 1px solid #ddd">Product Design</td>
+          <td style="padding: 12px; border: 1px solid #ddd">
+            Product Marketing
+          </td>
+          <td style="padding: 12px; border: 1px solid #ddd" colspan="2">
+            Product Management
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 12px; border: 1px solid #ddd">School of Data</td>
+          <td style="padding: 12px; border: 1px solid #ddd">Data Analysis</td>
+          <td style="padding: 12px; border: 1px solid #ddd">Data Science</td>
+          <td style="padding: 12px; border: 1px solid #ddd" colspan="2">
+            Data Engineering
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
